@@ -5,16 +5,20 @@
 
     <string name="emotion_desc">今の感情をお選びください．</string>
     <string name="bt_joy">喜び</string>
-    <string name="bt_angry">怒り</string>
+    <string name="bt_anger">怒り</string>
     <string name="bt_sad">悲しみ</string>
     <string name="bt_enjoyment">楽しみ</string>
+    <string name="bt_navigationStart">案内開始</string>
 
     <string name="title_eva">「未知しるべ」の評価のお願い</string>
-    <string name="coments_eva">「未知しるべ」をご利用いただきありがとうございます。「未知しるべ」の評価にご協力ください。</string>
+    <string name="coments_eva">「未知しるべ」の評価のお願い \n 「未知しるべ」を
+        ご利用いただきありがとうございます。「未知しるべ」の評価にご協力ください。</string>
     <string name="img_good">Good</string>
     <string name="img_bad">Bad</string>
     <string name="good">Good</string>
     <string name="bad">Bad</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="green_back">background</string>
+    <string name="eva_to_home">ホームへ戻る</string>
+
 </resources>
