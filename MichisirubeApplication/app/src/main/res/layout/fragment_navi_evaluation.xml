@@ -12,34 +12,38 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@drawable/lightgreen_back2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/good"
-        android:layout_width="126dp"
-        android:layout_height="136dp"
+        android:layout_width="127dp"
+        android:layout_height="132dp"
         android:layout_marginStart="81dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="329dp"
+        android:layout_marginBottom="300dp"
         android:contentDescription="@string/good"
         android:src="@drawable/good"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bad"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleEva"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints"
         tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/bad"
-        android:layout_width="154dp"
-        android:layout_height="171dp"
+        android:layout_width="159dp"
+        android:layout_height="157dp"
         android:layout_marginEnd="72dp"
-        android:layout_marginBottom="311dp"
+        android:layout_marginBottom="282dp"
         android:contentDescription="@string/bad"
         android:src="@drawable/bad"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,14 +55,33 @@
 
     <TextView
         android:id="@+id/titleEva"
-        android:layout_width="224dp"
-        android:layout_height="23dp"
+        android:layout_width="262dp"
+        android:layout_height="22dp"
         android:layout_marginTop="119dp"
         android:layout_marginBottom="135dp"
+        android:background="#FFFFFF"
         android:text="@string/title_eva"
         android:textColor="@color/brack"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/good"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/coments"
+        android:layout_width="262dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="152dp"
+        android:background="#FFFFFF"
+        android:text="@string/coments_eva"
+        android:textColor="@color/brack"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
