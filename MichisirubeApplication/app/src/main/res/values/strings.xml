@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">MichisirubeApplication</string>
+    <string name="app_name">未知しるべ開発合宿アプリ</string>
+
+
+
 
     <string name="bt_navi_start">感情に沿ってナビゲーション</string>
 
