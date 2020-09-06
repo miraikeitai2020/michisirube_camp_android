@@ -10,9 +10,11 @@
     <string name="bt_enjoyment">楽しみ</string>
 
     <string name="title_eva">「未知しるべ」の評価のお願い</string>
+    <string name="coments_eva">「未知しるべ」をご利用いただきありがとうございます。「未知しるべ」の評価にご協力ください。</string>
     <string name="img_good">Good</string>
     <string name="img_bad">Bad</string>
     <string name="good">Good</string>
     <string name="bad">Bad</string>
-
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="green_back">background</string>
 </resources>
