@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_graph">
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/titleFragment">
 
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.michisirubeapplication.ui.title.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_title_to_naviEmotion"
+            app:destination="@id/naviEmotionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/naviEmotionFragment"
+        android:name="com.example.michisirubeapplication.ui.naviEmotion.NaviEmotionFragment"
+        android:label="fragment_navi_emotion"
+        tools:layout="@layout/fragment_navi_emotion" >
+        <action
+            android:id="@+id/action_naviEmotion_to_naviTime"
+            app:destination="@id/naviTimeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/naviTimeFragment"
+        android:name="com.example.michisirubeapplication.ui.naviTime.naviTimeFragment"
+        android:label="fragment_navi_time"
+        tools:layout="@layout/fragment_navi_time">
+
+        <action
+            android:id="@+id/action_third_to_first"
+            app:destination="@id/naviDestinationFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/naviDestinationFragment"
+        android:name="com.example.michisirubeapplication.ui.naviDestination.naviDestinationFragment"
+        android:label="fragment_navi_destination"
+        tools:layout="@layout/fragment_navi_destination">
+    </fragment>
 </navigation>
