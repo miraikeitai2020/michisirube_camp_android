@@ -32,16 +32,28 @@
         android:label="fragment_navi_time"
         tools:layout="@layout/fragment_navi_time">
 
+        <argument
+            android:name="emotion"
+            app:argType="integer"/>
+
         <action
             android:id="@+id/action_third_to_first"
             app:destination="@id/naviDestinationFragment" />
-    </fragment>
 
+    </fragment>
 
     <fragment
         android:id="@+id/naviDestinationFragment"
         android:name="com.example.michisirubeapplication.ui.naviDestination.naviDestinationFragment"
         android:label="fragment_navi_destination"
         tools:layout="@layout/fragment_navi_destination">
+
+        <argument
+            android:name="emotion"
+            app:argType="integer"/>
+        <argument
+            android:name="time"
+            app:argType="integer"/>
+
     </fragment>
 </navigation>

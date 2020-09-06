@@ -17,8 +17,11 @@
     <string name="img_bad">Bad</string>
     <string name="good">Good</string>
     <string name="bad">Bad</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bt_select">決定</string>
+
     <string name="green_back">background</string>
     <string name="eva_to_home">ホームへ戻る</string>
+
 
 </resources>

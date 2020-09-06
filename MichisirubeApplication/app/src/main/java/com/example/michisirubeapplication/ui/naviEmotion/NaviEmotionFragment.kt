@@ -15,19 +15,37 @@ class NaviEmotionFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_navi_emotion,container,false)
 
-        view.btAnger.setOnClickListener{
-            findNavController().navigate(R.id.action_naviEmotion_to_naviTime)
-        }
-        view.btJoy.setOnClickListener{
-            findNavController().navigate(R.id.action_naviEmotion_to_naviTime)
-        }
-        view.btEnjoyment.setOnClickListener{
-            findNavController().navigate(R.id.action_naviEmotion_to_naviTime)
-        }
-        view.btSad.setOnClickListener{
-            findNavController().navigate(R.id.action_naviEmotion_to_naviTime)
-        }
+
         return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        view.btJoy.setOnClickListener{//喜び
+            val emotion: Int = 0
+            val action = NaviEmotionFragmentDirections.actionNaviEmotionToNaviTime(emotion)
+            findNavController().navigate(action)
+        }
+
+        view.btAnger.setOnClickListener{//怒
+            val emotion: Int = 1
+            val action = NaviEmotionFragmentDirections.actionNaviEmotionToNaviTime(emotion)
+            findNavController().navigate(action)
+        }
+
+        view.btSad.setOnClickListener{//悲しみ
+            val emotion: Int = 2
+            val action = NaviEmotionFragmentDirections.actionNaviEmotionToNaviTime(emotion)
+            findNavController().navigate(action)
+        }
+
+        view.btEnjoyment.setOnClickListener{//
+            val emotion: Int = 3
+            val action = NaviEmotionFragmentDirections.actionNaviEmotionToNaviTime(emotion)
+            findNavController().navigate(action)
+        }
+
     }
 
 }

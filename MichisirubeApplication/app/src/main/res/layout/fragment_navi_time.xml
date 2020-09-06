@@ -20,5 +20,18 @@
         android:background="#E5E6EF"
     />
 
+    <Button
+        android:id="@+id/btTimeSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_select"
+        android:background="#707070"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
