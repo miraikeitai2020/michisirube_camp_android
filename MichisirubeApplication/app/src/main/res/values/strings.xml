@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">未知しるべ開発合宿アプリ</string>
+
+    <string name="bt_navi_start">感情に沿ってナビゲーション</string>
+
+    <string name="emotion_desc">今の感情をお選びください．</string>
+    <string name="bt_joy">喜び</string>
+    <string name="bt_angry">怒り</string>
+    <string name="bt_sad">悲しみ</string>
+    <string name="bt_enjoyment">楽しみ</string>
+
+    <string name="title_eva">「未知しるべ」の評価のお願い</string>
+    <string name="img_good">Good</string>
+    <string name="img_bad">Bad</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+
+</resources>

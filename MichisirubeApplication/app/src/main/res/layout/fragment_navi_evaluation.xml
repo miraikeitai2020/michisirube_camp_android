@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".naviEvaluation">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/good"
+        android:layout_width="126dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="329dp"
+        android:contentDescription="@string/good"
+        android:src="@drawable/good"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleEva"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/bad"
+        android:layout_width="154dp"
+        android:layout_height="171dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="311dp"
+        android:contentDescription="@string/bad"
+        android:src="@drawable/bad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/good"
+        app:layout_constraintTop_toBottomOf="@+id/titleEva"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleEva"
+        android:layout_width="224dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="135dp"
+        android:text="@string/title_eva"
+        android:textColor="@color/brack"
+        app:layout_constraintBottom_toTopOf="@+id/good"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
