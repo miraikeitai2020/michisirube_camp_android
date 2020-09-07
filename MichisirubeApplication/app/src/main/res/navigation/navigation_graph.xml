@@ -37,7 +37,7 @@
             app:argType="integer"/>
 
         <action
-            android:id="@+id/action_third_to_first"
+            android:id="@+id/action_naviTime_to_naviDestination"
             app:destination="@id/naviDestinationFragment" />
 
     </fragment>
