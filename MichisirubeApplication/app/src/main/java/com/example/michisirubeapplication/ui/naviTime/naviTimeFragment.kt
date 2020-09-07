@@ -31,9 +31,9 @@ class naviTimeFragment : DialogFragment() {
 
         view.btTimeSelect.setOnClickListener {
             //感情と時間を次に受け継ぐコード書く
-            //val time = 0//時間ちゃんととってくる
-            //val action = NaviTimeFragmentDirections.actionsNaviTimeToNaviDestination(args.emotion,time)
-            //findNavController().navigate(action)
+            val time = 0//時間ちゃんととってくる
+            val action = naviTimeFragmentDirections.actionNaviTimeToNaviDestination(args.emotion,time)
+            findNavController().navigate(action)
         }
 
     }

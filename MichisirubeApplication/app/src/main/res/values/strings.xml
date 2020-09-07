@@ -1,5 +1,6 @@
 <resources>
 
+    <string name="app_name">未知しるべ開発合宿</string>
 
     <string name="bt_navi_start">感情に沿ってナビゲーション</string>
 
