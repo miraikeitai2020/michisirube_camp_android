@@ -92,7 +92,8 @@
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="527dp"
-        tools:text="@string/eva_to_home" />
+        tools:text="@string/eva_to_home"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
