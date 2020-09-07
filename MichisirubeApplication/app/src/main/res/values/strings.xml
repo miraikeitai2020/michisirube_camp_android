@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">未知しるべ開発合宿アプリ</string>
+
 
     <string name="bt_navi_start">感情に沿ってナビゲーション</string>
 
@@ -22,6 +22,7 @@
 
     <string name="green_back">background</string>
     <string name="eva_to_home">ホームへ戻る</string>
+
 
 
 </resources>
